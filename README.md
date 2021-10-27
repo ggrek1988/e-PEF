@@ -1,4 +1,4 @@
-Program umozliwiający komunikacje i wysyłke faktur w formacie xml do serwera ministerstwa 
+Program umozliwiający komunikacje i wysyłke faktur w formacie xml na serwer ministerstwa 
 
 parametry do uzupełnienia potrzebne do uruchomienia programu:
 
