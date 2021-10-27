@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns5:Invoice >
+	<CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</CustomizationID>
+	<ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ProfileID>
+	<ID>FV/11/0/05/2021</ID>
+	<IssueDate>2021-04-28</IssueDate>
+	<DueDate>2021-04-02</DueDate>
+	<InvoiceTypeCode>380</InvoiceTypeCode>
+	<Note>aaaa</Note>
+	<TaxPointDate>2021-05-01</TaxPointDate>
+	<DocumentCurrencyCode>PLN</DocumentCurrencyCode>
+	<ns3:OrderReference>
+		<ID>123456</ID>
+	</ns3:OrderReference>
+	<ns3:AccountingSupplierParty>
+		<ns3:Party>
+			<EndpointID schemeID="9945">XXXXXXXXX</EndpointID>
+			<ns3:PartyName>
+				<Name>test_</Name>
+			</ns3:PartyName>
+			<ns3:PostalAddress>
+				<StreetName>Nowa</StreetName>
+				<AdditionalStreetName>30</AdditionalStreetName>
+				<CityName>Warszawa</CityName>
+				<PostalZone>21-412</PostalZone>
+				<ns3:Country>
+					<IdentificationCode>PL</IdentificationCode>
+				</ns3:Country>
+			</ns3:PostalAddress>
+			<ns3:PartyTaxScheme>
+				<CompanyID>PLXXXXXXXXX</CompanyID>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:PartyTaxScheme>
+			<ns3:PartyLegalEntity>
+				<RegistrationName>test_</RegistrationName>
+			</ns3:PartyLegalEntity>
+			<ns3:Contact>
+				<Name>GG GG</Name>
+				<ElectronicMail>ggrekg@gmail.com</ElectronicMail>
+			</ns3:Contact>
+		</ns3:Party>
+	</ns3:AccountingSupplierParty>
+	<ns3:AccountingCustomerParty>
+		<ns3:Party>
+			<EndpointID schemeID="9945">XXXXXXXXX</EndpointID>
+			<ns3:PartyName>
+				<Name>Lefthand</Name>
+			</ns3:PartyName>
+			<ns3:PostalAddress>
+				<StreetName>Jagiellonska </StreetName>
+				<AdditionalStreetName>78</AdditionalStreetName>
+				<CityName>Warszawa</CityName>
+				<PostalZone>03-301</PostalZone>
+				<ns3:AddressLine>
+					<Line>53</Line>
+				</ns3:AddressLine>
+				<ns3:Country>
+					<IdentificationCode>PL</IdentificationCode>
+				</ns3:Country>
+			</ns3:PostalAddress>
+			<ns3:PartyTaxScheme>
+				<CompanyID>PLXXXXXXXXXX</CompanyID>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:PartyTaxScheme>
+			<ns3:PartyLegalEntity>
+				<RegistrationName>Lefthand</RegistrationName>
+			</ns3:PartyLegalEntity>
+		</ns3:Party>
+	</ns3:AccountingCustomerParty>
+	<ns3:Delivery>
+		<ActualDeliveryDate>2021-04-28</ActualDeliveryDate>
+		<ns3:DeliveryLocation>
+			<ns3:Address>
+				<ns3:Country>
+					<IdentificationCode>PL</IdentificationCode>
+				</ns3:Country>
+			</ns3:Address>
+		</ns3:DeliveryLocation>
+	</ns3:Delivery>
+	<ns3:PaymentMeans>
+		<PaymentMeansCode>10</PaymentMeansCode>
+	</ns3:PaymentMeans>
+	<ns3:PaymentTerms>
+		<Note>gotÃ³wka</Note>
+	</ns3:PaymentTerms>
+	<ns3:TaxTotal>
+		<TaxAmount currencyID="PLN">15.64</TaxAmount>
+		<ns3:TaxSubtotal>
+			<TaxableAmount currencyID="PLN">68</TaxableAmount>
+			<TaxAmount currencyID="PLN">15.64</TaxAmount>
+			<ns3:TaxCategory>
+				<ID>S</ID>
+				<Percent>23</Percent>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:TaxCategory>
+		</ns3:TaxSubtotal>
+	</ns3:TaxTotal>
+	<ns3:LegalMonetaryTotal>
+		<LineExtensionAmount currencyID="PLN">68</LineExtensionAmount>
+		<TaxExclusiveAmount currencyID="PLN">68</TaxExclusiveAmount>
+		<TaxInclusiveAmount currencyID="PLN">83.64</TaxInclusiveAmount>
+		<AllowanceTotalAmount currencyID="PLN">0</AllowanceTotalAmount>
+		<ChargeTotalAmount currencyID="PLN">0</ChargeTotalAmount>
+		<PrepaidAmount currencyID="PLN">0</PrepaidAmount>
+		<PayableRoundingAmount currencyID="PLN">0</PayableRoundingAmount>
+		<PayableAmount currencyID="PLN">83.64</PayableAmount>
+	</ns3:LegalMonetaryTotal>
+	<ns3:InvoiceLine>
+		<ID>1</ID>
+		<InvoicedQuantity unitCode="H87">2</InvoicedQuantity>
+		<LineExtensionAmount currencyID="PLN">68</LineExtensionAmount>
+		<ns3:Item>
+			<Name>test</Name>
+			<ns3:ClassifiedTaxCategory>
+				<ID>S</ID>
+				<Percent>23</Percent>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:ClassifiedTaxCategory>
+		</ns3:Item>
+		<ns3:Price>
+			<PriceAmount currencyID="PLN">34</PriceAmount>
+			<BaseQuantity>1</BaseQuantity>
+		</ns3:Price>
+	</ns3:InvoiceLine>
+</ns5:Invoice>
