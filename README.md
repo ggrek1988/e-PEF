@@ -3,6 +3,7 @@ Program umozliwiający komunikacje i wysyłke faktur w formacie xml do serwera m
 parametry do uzupełnienia potrzebne do uruchomienia programu:
 
 parametr1 # pobiera id clienta
+
 parametr2 # pobiera sekretny klucz
 parametr3 # pobiera jaki dokument się zaczytuje CREDIT_NOTE, DESPATCH_ADVICE, INVOICE, INVOICE_CORRECTION, ORDER, RECEIPT_ADVICE
 parametr4 # sciezka do zapisywania/odczytywania pliku
