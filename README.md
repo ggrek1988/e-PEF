@@ -3,7 +3,7 @@ Platforma Elektronicznego Fakturowania Platforma PEF
 
 ## **Tools**
 Project is created with:
-* Python
+* Python 2.7
 
 ## **Description**
 
