@@ -1,3 +1,12 @@
+# e-PEF
+Platforma Elektronicznego Fakturowania Platforma PEF
+
+## **Tools**
+Project is created with:
+* Python
+
+## **Description**
+
 Program umozliwiający komunikacje i wysyłke faktur w formacie xml na serwer ministerstwa 
 
 parametry do uzupełnienia potrzebne do uruchomienia programu:
